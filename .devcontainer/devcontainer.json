@@ -6,7 +6,7 @@
             "version": "latest"
         }
     },
-    "postStartCommand": "REPO_NAME=$(Jack$(git rev-parse --show-toplevel)); python3 /workspaces/$Jack/LX.py",
+    "postStartCommand": "REPO_NAME=$(Jack$(git rev-parse --show-toplevel)); python3 /workspaces/$Jack/Lx.py",
     "customizations": {
         "vscode": {
             "settings": {
